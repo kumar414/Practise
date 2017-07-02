@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > 
+<suite name="Parallel Class Suite" parallel="classes" thread-count="2"> 
+<test name="Parallel Class Test" > 
+<classes> 
+<class name="com.practise.Testone"/> 
+<class name="com.practise.Testone"/> 
+</classes> 
+</test> 
+</suite>

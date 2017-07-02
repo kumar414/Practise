@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="platformVersion_" value="6.1.0"/>
+  <parameter name="URL_" value="127.0.0.1:1234/wd/hub"/>
+  <parameter name="UDID_" value="484ac266"/>
+  <parameter name="deviceName_" value="deviceName"/>
+  <test name="Test1(failed)" parallel="tests">
+    <parameter name="platformVersion_" value="6.1.0"/>
+    <parameter name="URL_" value="127.0.0.1:1234/wd/hub"/>
+    <parameter name="UDID_" value="484ac266"/>
+    <parameter name="deviceName_" value="deviceName"/>
+    <classes>
+      <class name="com.practise.Mobiwiki">
+        <methods>
+          <include name="startServer"/>
+          <include name="startingAppiumServer"/>
+          <include name="selectuser"/>
+        </methods>
+      </class> <!-- com.practise.Mobiwiki -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
